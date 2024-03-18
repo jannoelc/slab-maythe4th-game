@@ -1,0 +1,22 @@
+import { handlerPath } from "@libs/handler-resolver";
+import { cors } from "@libs/cors";
+
+import schema from "./schema";
+
+export default {
+  handler: `${handlerPath(__dirname)}/handler.main`,
+  events: [
+    {
+      http: {
+        method: "post",
+        path: "login",
+        request: {
+          schemas: {
+            "application/json": schema,
+          },
+        },
+        cors,
+      },
+    },
+  ],
+};

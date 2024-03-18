@@ -1,0 +1,14 @@
+[
+  {
+    "id": "usteam",
+    "password": "hardpassword",
+    "leadsVisited": [],
+    "members": ["Doug", "Judy", "Judge Judy", "RuPaul"]
+  },
+  {
+    "id": "animeteam",
+    "password": "harderpassword",
+    "leadsVisited": [],
+    "members": ["Son Goku", "Vegeta", "Naruto", "Ichigo"]
+  }
+]

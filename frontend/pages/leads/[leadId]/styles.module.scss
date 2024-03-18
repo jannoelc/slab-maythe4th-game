@@ -1,0 +1,17 @@
+.heading {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+}
+
+.article {
+  font-family: "Lustria", serif;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+
+  &:first-child::first-letter {
+    font-family: "Parisienne", cursive;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 1.2rem;
+  }
+}
